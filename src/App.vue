@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="TimeTracker logo" src="./assets/base.png">
+    <h1>Welcome to TimeTracker App</h1>
+    <p>
+      It's very simple to use, enjoy!
+    </p>
+    <MainComp />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainComp from './components/Main.vue';
 
 export default {
+  // el: "#app", // elemento dom => https://vuejs.org/v2/api/#el -> WARN: option "el" can only be used during instance creation with the `new` keyword.
   name: 'App',
   components: {
-    HelloWorld
+    MainComp
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
