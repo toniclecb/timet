@@ -67,7 +67,7 @@ import Item from './Item.vue';
 import Modalzin from './Modalzin.vue';
 
 export default {
-    name: 'Timet', // https://vuejs.org/v2/api/#name - Allow the component to recursively invoke itself in its template....Named components result in more helpful warning messages.
+    name: 'TimeT', // https://vuejs.org/v2/api/#name - Allow the component to recursively invoke itself in its template....Named components result in more helpful warning messages.
     components: {
       Item, Modalzin
     },
