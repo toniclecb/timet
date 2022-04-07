@@ -1,9 +1,10 @@
-# https://dev.to/the_one/deploy-to-github-pages-like-a-pro-with-github-actions-4hdg
 name: Deploy to github pages
+
   on:
     push:
       branches:
         - master
+
   jobs:
     gh-pages-deploy:
       name: Deploying to gh-pages
@@ -23,3 +24,4 @@ name: Deploy to github pages
           run: |
             git config user.name "toniclecb" && git config user.email "toniclecb@gmail.com"
             npm run gh-pages-deploy
+# https://dev.to/the_one/deploy-to-github-pages-like-a-pro-with-github-actions-4hdg
