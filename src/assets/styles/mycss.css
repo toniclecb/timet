@@ -25,6 +25,12 @@
   text-align: right;
 }
 
+.textdeveloped {
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
+
 .w32 {
   width: 32px;
   margin: 1px;
@@ -52,7 +58,7 @@
   flex-direction: column;
   height: 159px;
 }
-/* botao copiado de skeleton.css:203 */
+/* button copied from skeleton.css:203 */
 .button.button-danger,
 button.button-danger,
 input[type="submit"].button-danger,
@@ -75,7 +81,7 @@ input[type="button"].button-danger:focus {
   background-color: #ff1a1a;
   border-color: #ff1a1a; }
 
-/* segue valores para o MODAL: https://codepen.io/paulmcclean/pen/YGXWQY */
+/* values for component MODAL: https://codepen.io/paulmcclean/pen/YGXWQY */
 .modal {
   position: fixed;
   left: 0;

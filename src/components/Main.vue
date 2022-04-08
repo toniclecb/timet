@@ -42,6 +42,12 @@
       </div>        
     </div>
 
+    <div class="container">
+      <div class="row">
+        <div class="textdeveloped">Developed by <a target="_blank" href="https://github.com/toniclecb">TonicleCB</a></div>
+      </div>
+    </div>
+
     <Modalzin ref="uniqmodal" :cbQuestion="callbackQuestion">
     </Modalzin>
 

@@ -2,6 +2,8 @@
 A simple project (coded in Vue.js) to manage your time!
 This is a project made in learning time, and there are few examples of things which Vue.js can do!
 
+It's live: https://toniclecb.github.io/timet/
+
 
 * Components: Main, Item, Modalzin
 * Filters: timeString, exactTime
